@@ -68,7 +68,7 @@ void main()
                         break;
 
                 case 4: /* stop */
-						val=virDomainStop(vdp);
+			val=virDomainStop(vdp);
                         if(val==0)                     
                             printf("Success");
                         else
