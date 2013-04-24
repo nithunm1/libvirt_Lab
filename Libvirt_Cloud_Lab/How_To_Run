@@ -1,0 +1,12 @@
+Hai Everyone,
+    
+Steps to Run this Program:
+    
+    1. Run Your Xen Hypervisior(as i done this for xen Hypervisor)
+    2. Install libvirt package libvirt-dev(supports : QEMU, KVM, XEN, OpenVZ, LXC, and VirtualBox).
+    3. In terminal Compile the code by giving:
+            
+                gcc -g yourprogram.c -o target_object_file.o -lvirt   
+    4. Run Your Object Code and all is Done. 
+
+Thank You
