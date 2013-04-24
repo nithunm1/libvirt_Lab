@@ -46,21 +46,21 @@ void main()
             switch(choice)
             {
                 case 1:/* Start */
-				       val=virDomainCreate(vdp);
+		       val=virDomainCreate(vdp);
                        if(val==0)      
                            printf("Success");
                        else
                            printf("Failed");   
                        break;
                 case 2:/* Suspend */
-					   val=virDomainSuspend(vdp);
+		       val=virDomainSuspend(vdp);
                        if(val==0)
                            printf("Success");
                        else
                            printf("Failed");   
                        break;
                 case 3:/* Resume */ 
-					   val=virDomainResume(vdp);
+		        val=virDomainResume(vdp);
                         if(val==0)                     
                             printf("Success");
                         else
